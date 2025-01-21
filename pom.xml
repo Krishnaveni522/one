@@ -13,27 +13,8 @@
 		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
 
 	</properties>
-	<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.1</version> <!-- Latest stable version -->
-        </plugin>
-    </plugins>
-</build>
-	<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.1</version> <!-- Latest stable version -->
-            <configuration>
-                <failOnMissingWebXml>false</failOnMissingWebXml>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+	
+	
 
 
 	<dependencies>
